@@ -1,5 +1,4 @@
 ## get and merge data
-setwd("c:/users/ksoler/documents/r")
 library(plyr)
 library(data.table)
 subjectTrain = read.table('.train/subject_train.txt',header=FALSE)
